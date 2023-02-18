@@ -306,6 +306,12 @@ html{
     font-weight: 600;
     padding-top: 20px;
 }
+.blog__item__title1{
+    width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 20px;
+}
 
 .blog__item__text{
     color: rgba(239, 237, 232, 0.65);
@@ -322,40 +328,7 @@ html{
 
 
 
-.blog__strelka{
-    width: 14px;
-    height: 20px;
-    display: block;
-    position: relative;
-    top: 362px;
-    left: -435px;
-}
-.blog__palka{
-    width: 1.5px;
-    height: 22px;
-    transform: rotate(90deg);
-    position: relative;
-    top: 359.5px;
-    left: -476px;
 
-}
-.blog__strelka1{
-    width: 14px;
-    height: 20px;
-    display: block;
-    position: relative;
-    bottom: -460px;
-    left: -480px;
-}
-
-.blog__palka1{
-    width: 1.5px;
-    height: 22px;
-    transform: rotate(90deg);
-    position: relative; 
-    left: -540px;
-    top: 458.5px;
-}
 /* members */
 
 .membership{
@@ -423,14 +396,51 @@ html{
     color: white;
 }
 
-.membership__strelka{
+/* arrow */
+
+.arrow-1{
+    cursor: pointer;
     position: relative;
-    top: -35px;
-    left: 180px;
+    width: 25px;
+    height: 40px;
 }
 
-.membership__palka{
+.arrow-1 span {
     position: relative;
-    top: -44px;
-    left: 150px;
+    display: block;
+    top: 20px;
+    left:0;
+    width: 22px;
+    height: 1.45px;
+    background-color: #FAFAF9;
+    border-radius: 0 50px 50px 0;    
 }
+
+.arrow-1 span::after {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 1.45px;
+    top: -4.75px;
+    right: -1px;
+    background-color: #FAFAF9;
+    transform: rotate(45deg);
+}
+
+.arrow-1 span::before {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 1.45px;
+    top: 4.75px;
+    right: -1px;
+    background-color: #FAFAF9;
+    transform: rotate(-45deg);
+}
+
+.arrows__flex{
+    display: flex;
+    justify-content: start;
+}
+
+
