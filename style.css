@@ -276,7 +276,8 @@ html{
 }
 
 .programs__block__title{
-    text-align: center;
+    padding-left: 60px;
+    margin-bottom: 5px;
     font-size: 16px;
     padding-top: 50px;
 }
@@ -284,6 +285,7 @@ html{
 .programs__block__text{
     font-size: 14px;
     text-align: center;
+    color: rgba(239, 237, 232, 0.65);
 }
 
 
@@ -326,6 +328,10 @@ html{
     justify-content: space-between;
 }
 
+.blog__item__link{
+    padding-top: 9px;
+
+}
 
 
 
@@ -379,7 +385,8 @@ html{
 }
 
 .membership__item__link{
-    margin: 537px 347px 77px 81px;
+    margin-left: 70px;
+    margin-top: 10px;
     text-decoration: none;
     color: #0070c9;
     font-size: 16px;
@@ -403,6 +410,8 @@ html{
     position: relative;
     width: 25px;
     height: 40px;
+    padding-left: 10px;
+    
 }
 
 .arrow-1 span {
@@ -440,7 +449,22 @@ html{
 
 .arrows__flex{
     display: flex;
+    justify-content: center;
+}
+
+.arrows__blog__flex{
+    display: flex;
     justify-content: start;
 }
 
+.arrows__blog__flex1{
+    display: flex;
+    justify-content: start;
+}
+
+.arrows__flex__membership{
+    display: flex;
+    justify-content: start;
+    padding-top: 100px;
+}
 
