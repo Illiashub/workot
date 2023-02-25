@@ -118,48 +118,39 @@ html{
     }
 
     .elipse{
-        background-color: #EFA082;
+        width: 16px;
+        height: 16px;
+        padding-left: 29px;
+        padding-top: 16px;
+       
+    }
+
+    .elipse::before{
+        content: "";
+        position: absolute;
+        top: 14px;
+        left: 25px;
+        opacity: 0.2;
         width: 24px;
         height: 24px;
         border-radius: 100%;
-        position: absolute;
-        left: 25px;
-        top: 14px;
+        background-color: #bbb1ad;
     }
 
-    .man{
-        position: absolute;
-        left: 5px;
-        right: 5px;
-        top: 5px;
-        bottom: 4px;
-    }
-
-    .head{
-        position: absolute;
-        bottom: 18px;
-        right: 6.5px;
-        left: 14.19px;
-    }
+    
 
     .promo__mini-block__text{
         font-size: 48px;
-        position: absolute;
-        top: 6px;
-        bottom: 14px;
-        left: 26px;
-        right: 60px;
+        margin: 0;
+        padding-top: 7px;
+        padding-left: 20px;
     
     }
 
-    .promo__mini-block__t{
+    .promo__mini-block__km{
         color: rgba(239, 237, 232, 0.65);
-        position: absolute;
-        top: 70px;
-        bottom: 16px;
-        left: 128px;
-        right: 28px;
-        font-size: 16px;
+        
+        font-size: 24px;
         font-weight: 600;
        
     }
@@ -339,7 +330,7 @@ html{
 
 .membership{
     width: 1169px;
-    padding-top: 323px;
+    
     padding-left: 141px;
 }
 
