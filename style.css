@@ -32,6 +32,7 @@ html{
     justify-content: space-between;
     list-style-type: none;
     padding-left: 10px;
+    margin: 0;
     }
     
     .nav__list__item{
@@ -160,7 +161,7 @@ html{
         border-radius: 12px;
         position: absolute;
         width: 206px;
-        height: 96px;
+        height: 106px;
         left: 800px;
         top: 420px;
     }
@@ -170,37 +171,34 @@ html{
         width: 40px;
         height: 40px;
         border-radius: 100%;
-        position: absolute;
-        left: 23px;
-        top: 28px;
-        bottom: 28px;
-        right: 143px;
-    }
+        margin-left: 25px;
+        margin-top: 25px;
+    } 
 
     .polygon{
-        position: absolute;
-        top: 10px;
-        left: 15px;
-        right: 10px;
-        bottom: 10px;
+        padding-top: 12px;
+        padding-left: 16px;
     }
 
     .promo__mini-block__text1{
+        display: block;
         font-size: 24px;
         font-weight: 600;
-        position: absolute;
-        top: 5px;
-        left: 75px;
+        padding-left: 10px;
+    }
 
+    .promo__mini-block__flex{
+        display: flex;
+        justify-content: start;
+        
     }
 
     .promo__mini-block__1t{
         color: rgba(239, 237, 232, 0.65);
         font-size: 16px;
         font-weight: 400;
-        position: absolute;
-        top: 47px;
-        left: 75px;    
+        margin: 0;  
+        padding-left: 75px; 
     }
 
     .promo__mini-block2{
@@ -216,19 +214,17 @@ html{
     .promo__mini-block__text2{
         font-size: 40px;
         font-weight: 600;
-        position: absolute;
-        top: -23px;
-        left: 23px;
         letter-spacing: 1px;
+        margin: 0;
+        padding-top: 10px;
+        padding-left: 10px;
     }
 
     .promo__mini-block__2t{
         color: rgba(239, 237, 232, 0.65);
-        position: absolute;
-        top: 52px;
-        right: 23px;
-        left: 32px;
         width: 500px;
+        padding-left: 10px;
+       
     }
 
 
@@ -240,8 +236,6 @@ html{
 }
 
 .programs__title{
-    /* padding-left: 141px;
-    padding-top: 150px; */
     font-size: 30px;
 }
 
