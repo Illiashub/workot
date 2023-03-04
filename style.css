@@ -391,8 +391,8 @@ html{
 .end__btn{
     margin-left: 470px;  
     width: 90px;
-    position: fixed; 
-    top: 828px;
+    /* position: fixed; 
+    top: 828px; */
 }
 
 /* arrow */
