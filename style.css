@@ -35,9 +35,7 @@ html{
     margin: 0;
     }
 
-    .nav{
-        display: none;
-    }
+    
     
     .nav__list__item{
         list-style-type: none;
