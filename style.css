@@ -388,6 +388,13 @@ html{
     color: white;
 }
 
+.end__btn{
+    margin-left: 470px;  
+    width: 90px;
+    position: fixed; 
+    top: 828px;
+}
+
 /* arrow */
 
 .arrow-1{
@@ -452,4 +459,6 @@ html{
     justify-content: start;
     padding-top: 100px;
 }
+
+
 
