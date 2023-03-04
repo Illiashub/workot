@@ -342,7 +342,7 @@
     height: 100px;
     position: absolute;
     top: 190px;
-    right: 310px;
+    right: 160px;
 }
 
 .promo__mini-block__text{
@@ -436,6 +436,10 @@
 
 .programs__block{
     height: 190px;
+}
+
+.arrows__flex{
+    padding-top: 10px;
 }
 
 /* blog */
