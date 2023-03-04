@@ -173,11 +173,13 @@
 }
 
 .programs__title{
-    margin-top: -50px;
+    padding-left: 57px;
     font-size: 25px;
+
 }
 
 .programs__title__text{
+    padding-left: 57px;
     font-size: 16px;
     width: 700px;
     color: #d9d9d9;
