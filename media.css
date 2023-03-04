@@ -434,6 +434,10 @@
     width: 80%;
 }
 
+.programs__block{
+    height: 190px;
+}
+
 /* blog */
 
 .blog__item__title1{
