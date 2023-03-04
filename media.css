@@ -25,8 +25,10 @@
     }
 
    .header__block__text{
-    position: absolute;
-    left: 50px;
+    /* position: absolute;
+    left: 50px; */
+    padding-left: 250px;
+    margin: 0;
    }
 
 /* MAIN */
@@ -187,10 +189,10 @@
 }
 
 .programs__block{
-   
     background-color: #323443;
     border-radius: 10px;
     margin-top: 20px;
+    width: 250px;
 }
 
 .programs__flex{
