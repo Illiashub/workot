@@ -8,15 +8,18 @@
     .container{
         max-width: 720px;
     }
+
+    
 }
 
 @media( max-width: 768px){
     .container{
         max-width: 540px;
     }
-    /* HEADER__TITLE */
+   
+ /* HEADER__TITLE */
 
-    .nav__list{
+ .nav__list{
     position: absolute;
     right: 50px;
     }
@@ -28,10 +31,7 @@
 
 /* MAIN */
 
-.all{
-    padding-left: 20px;
-    
-}
+
 
 .promo{
     position: relative;
@@ -39,32 +39,37 @@
    
 
 }
+.promo__img{
+    display: none;
+}
 
 .promo__title{
     font-size: 90px;
-    padding-left: 20px;
+    padding-left: 80px;
+    margin-bottom: 5px;
+  
    
    
 }
 
 .promo__text{
-    padding-top: 30px;
-    padding-left: 25px;
+   padding-left: 85px;
+    
 }
 
 .promo__btn{
     margin-top: 40px;
-    margin-left: 25px;
-    width: 100px;
+    margin-left: 80px;
+    width: 200px;
     height: 50px;
 }
 
 .promo__mini-block{
-    width: 140px;
+    width: 150px;
     height: 100px;
     position: absolute;
-    top: 220px;
-    right: 600px;
+    top: 36px;
+    right: 40px;
 }
 
 .promo__mini-block__text{
@@ -84,11 +89,11 @@
 }
 
 .promo__mini-block1{
-    width: 140px;
-    height: 103px;
+    width: 150px;
+    height: 100px;
     position: absolute;
-    top: 220px;
-    left: 170px;
+    top: 145px;
+    left: 570px;
 }
 
 .promo__mini-block__1t{
@@ -123,8 +128,8 @@
     width: 150px;
     height: 100px;
     position: absolute;
-    left: 320px;
-    top: 220px;
+    left: 570px;
+    top: 253px;
 }
 
 .promo__mini-block__text2{
@@ -142,7 +147,7 @@
 
 
 .promo__logos{
-    padding-left: 25px;
+    padding-left: 80px;
     padding-top: 25px;
 }
 
@@ -262,13 +267,14 @@
 
 
 
-
 }
 
 @media( max-width: 576px){
     .container{
         max-width: 360px;
     }
+
+    
 
     .membership__hr{
         width: 700px;
