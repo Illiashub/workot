@@ -37,36 +37,52 @@
 
 .promo{
     position: relative;
-    width: 760px;
+    width: 100%;
    
 
 }
 .promo__img{
-    display: none;
+    width: 200px;
+    position: absolute;
+    left: 450px;
+    top: 30px;
+
 }
 
 .promo__title{
     font-size: 90px;
-    padding-left: 80px;
+    padding: 0;
     margin-bottom: 5px;
-  
-   
-   
+    width: 500px;   
 }
 
 .promo__text{
-   padding-left: 85px;
+    padding: 0;
+    width: 500px;
+    font-size: 15px;
     
 }
 
 .promo__btn{
-    margin-top: 40px;
-    margin-left: 80px;
+    margin: 40px 0 50px 0;
     width: 200px;
     height: 50px;
+    
 }
 
 .promo__mini-block{
+    display: none;
+}
+
+.promo__mini-block1{
+    display: none;
+}
+
+.promo__mini-block2{
+    display: none;
+}
+
+/* .promo__mini-block{
     width: 150px;
     height: 100px;
     position: absolute;
@@ -145,21 +161,23 @@
     color: rgba(239, 237, 232, 0.65);
    
    
-}
+} */
 
 
 .promo__logos{
-    padding-left: 80px;
-    padding-top: 25px;
+   padding: 0;
+   
 }
 
 .promo__logos__items{
-    width: 600px;
+    width: 550px;
     display: flex;
     justify-content: space-between;
    
     
 }
+
+
 
 .promo__logos__title{
     width: 200px;
@@ -175,15 +193,14 @@
 }
 
 .programs__title{
-    padding-left: 57px;
+    padding-left: 45px;
     font-size: 25px;
 
 }
 
 .programs__title__text{
-    padding-left: 57px;
-    font-size: 16px;
-    width: 700px;
+    padding-left: 45px;
+    font-size: 15px;
     color: #d9d9d9;
 
 }
@@ -191,14 +208,15 @@
 .programs__block{
     background-color: #323443;
     border-radius: 10px;
-    margin-top: 20px;
-    width: 250px;
+    width: 75%;
+    margin: 20px auto;
 }
 
 .programs__flex{
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
+    
+    
 
 }
 
@@ -211,11 +229,12 @@
  /* BLOG */
 
  .blog{
-    padding-left: 34px;
+    padding: 0 0 0 0;
+    width: 100%;
  }
 
  .blog__item__title{
-    margin-top: -80px;
+   
  }
 
 .blog__list{
@@ -249,8 +268,9 @@
 }
 
 .membership{
-    margin-top: -300px;
-    padding-left: 25px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 .membership__block{
@@ -265,7 +285,7 @@
 }
 
 .membership__hr{
-    width: 730px;
+    width:100%;
     margin-left: 0px;
 }
 
@@ -280,9 +300,6 @@
 
     
 
-    .membership__hr{
-        width: 700px;
-        margin-left: 0px;
-    }
+  
     
 }
