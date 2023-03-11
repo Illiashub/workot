@@ -340,7 +340,7 @@
     }
     
     .promo__mini-block{
-        display: inline;
+        display: block;
         width: 125px;
         height: 80px;
         position: absolute;
