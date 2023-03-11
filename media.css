@@ -431,10 +431,16 @@
     
     .promo__logos__items{
         width: 350px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
     }
     
     .promo__logos__item{
-        width: 115px;
+        
+        margin-right: 12px;
+        margin-bottom: 20px;
     }
     
     /* programs */
