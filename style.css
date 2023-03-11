@@ -78,7 +78,7 @@ html{
 
     .promo__img{
         position: absolute;
-        width: 409px;
+        width: 355px;
         top: 50px;
         left: 900px;
     }
@@ -115,8 +115,8 @@ html{
         height: 110px;
         border-radius: 12px;
         position: absolute;
-        top: 20px;
-        right: -115px;
+        top: 15px;
+        left: 1150px;
 
     }
 
@@ -162,10 +162,10 @@ html{
         background-color: #303030;
         border-radius: 12px;
         position: absolute;
-        width: 206px;
+        width: 180px;
         height: 106px;
-        left: 800px;
-        top: 420px;
+        left: 810px;
+        top: 370px;
     }
 
     .elipse1{
@@ -207,10 +207,10 @@ html{
         background-color: #7A29DC;
         border-radius: 12px;
         position: absolute;
-        width: 193px;
+        width: 163px;
         height: 98px;
-        left: 1250px;
-        top: 520px;
+        left: 1170px;
+        top: 460px;
     }
 
     .promo__mini-block__text2{
@@ -282,7 +282,7 @@ html{
 .blog{
     width: 1235px;
     padding-top: 189px;
-    padding-left: 141px;
+    padding-left: 115px;
 }
 
 .blog__list{
