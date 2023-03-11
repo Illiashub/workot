@@ -345,7 +345,7 @@
         height: 90px;
         position: absolute;
         top: 150px;
-        right: 325px;
+        right: 245px;
     }
     
     .promo__mini-block__text{
@@ -370,7 +370,7 @@
         height: 90px;
         position: absolute;
         top: 150px;
-        left: 240px;
+        left: 120px;
     }
     
     .promo__mini-block__1t{
@@ -406,7 +406,7 @@
         width: 130px;
         height: 90px;
         position: absolute;
-        left: 375px;
+        left: 255px;
         top: 150px;
     }
     
@@ -440,7 +440,7 @@
     }
 
     .programs__block{
-        height: 180px;
+        height: 190px;
     }
     
     /* blog */
