@@ -321,15 +321,18 @@
     }
 
     /* header */
-
+    
+    .promo{
+        width: 100%;
+    }
     .promo__text{
         padding-top: 110px;
         width: 412px;
     }
     
     .promo__title{
-        font-size: 80px;
-        width: 429px;
+        font-size: 65px;
+        width: 360px;
     }
     
     .promo__img{
@@ -338,15 +341,15 @@
     
     .promo__mini-block{
         display: inline;
-        width: 150px;
-        height: 100px;
+        width: 130px;
+        height: 90px;
         position: absolute;
-        top: 190px;
-        right: 310px;
+        top: 150px;
+        right: 325px;
     }
     
     .promo__mini-block__text{
-        font-size: 45px;
+        font-size: 35px;
         padding-left: 8px;
         display: flex;
         justify-content: start;
@@ -356,27 +359,27 @@
         color: rgba(239, 237, 232, 0.65);
         font-size: 16px;
         font-weight: 600;
-        padding-top: 25px;
+        padding-top: 17px;
         padding-left: 5px;
     
     }
     
     .promo__mini-block1{
         display: inline;
-        width: 150px;
-        height: 100px;
+        width: 130px;
+        height: 90px;
         position: absolute;
-        top: 190px;
-        left: 257px;
+        top: 150px;
+        left: 240px;
     }
     
     .promo__mini-block__1t{
         color: rgba(239, 237, 232, 0.65);
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 400;
         width: 91px;
         padding-left: 40px;
-        padding-top: 10px;
+        padding-top: 6px;
     
     }
     
@@ -400,11 +403,11 @@
     
     .promo__mini-block2{
         display: inline;
-        width: 150px;
-        height: 100px;
+        width: 130px;
+        height: 90px;
         position: absolute;
-        left: 414px;
-        top: 190px;
+        left: 375px;
+        top: 150px;
     }
     
     .promo__mini-block__text2{
@@ -417,6 +420,8 @@
     .promo__mini-block__2t{
         color: rgba(239, 237, 232, 0.65);
         width: 139px;
+        font-size: 14px;
+        padding-left: 3px;
     
     }
     
@@ -432,6 +437,10 @@
     
     .programs__title__text{
         width: 80%;
+    }
+
+    .programs__block{
+        height: 180px;
     }
     
     /* blog */
