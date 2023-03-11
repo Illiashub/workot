@@ -321,6 +321,10 @@
     }
 
     /* header */
+
+    .header__block__text{
+        padding-left: 160px;
+    }
     
     .promo{
         width: 100%;
@@ -452,9 +456,15 @@
     .programs__block{
         height: 190px;
     }
+
+    .programs__title{
+        margin: 0;
+    }
     
     /* blog */
-    
+    .blog__img1{
+        width: 370px;
+    }
     .blog__item__title1{
         font-size: 32px;
     }
